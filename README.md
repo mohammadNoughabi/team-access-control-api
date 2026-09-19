@@ -14,6 +14,7 @@ The API is written in **TypeScript** and runs on **Node.js**.
 -   Redis
 -   JWT
 -   bcryptjs
+-   nodemailer
 -   Zod
 -   Pino
 -   Swagger / OpenAPI
@@ -78,7 +79,7 @@ Generate OTP
    ↓
 Redis
    ↓
-Send verification email
+Send verification email by nodemailer
 ```
 
 ### 2. Verify Email
